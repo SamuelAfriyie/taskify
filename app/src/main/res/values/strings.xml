@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Taskify</string>
+    <string name="title_activity_task">TaskActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+        <string-array name="spinner_items">
+            <item>High</item>
+            <item>Medium</item>
+            <item>Low</item>
+        </string-array>
+    <string name="sort_by">Sort By</string>
+    <string name="priority_high">Priority High</string>
+    <string name="priority_low">Priority Low</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="enter_title">Enter title</string>
+    <string name="save">Save Record</string>
+    <string name="search">search</string>
+    <string name="reset">Reset</string>
+    <string name="priority_medium">Priority medium</string>
+
+    <style name="CustomSpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:background">?attr/colorControlHighlight</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">?attr/colorPrimary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:dropDownVerticalOffset">8dp</item>
+        <item name="android:dropDownHorizontalOffset">8dp</item>
+        <item name="android:popupBackground">@color/spinner_dropdown_background</item>
+    </style>
+
+    <!-- Customize spinner dropdown background color -->
+    <color name="spinner_dropdown_background">#FFFFFF</color> <!-- White background, change as needed -->
+</resources>
